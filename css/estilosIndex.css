@@ -20,7 +20,7 @@ nav{
 .logoN{
     width: 20%;
 }
-.logoN img, .user svg, .carrito svg{
+.logoN img, .user svg, .carrito svg, .anterior svg, .siguiente svg{
     width: 100%;
     object-fit: cover;
 }
@@ -31,6 +31,76 @@ nav{
     align-items: center;
 }
 .user, .carrito{
-width: 20%;
-height: 50%;
+width: 15%;
+}
+/*--------eslaider header--------*/
+header{
+    background-color: brown;
+    width: 100%;
+    height: 50vh ;
+}
+.mascara{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.anterior, .siguiente{
+    width: 3%;
+    margin-top: 15vh;
+}
+/*------contenido------*/
+#contenido{
+    padding: 20px 0px;
+    
+}
+.containerContenido{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+article{
+    width: 45%;
+    border: rgba(0, 0, 0, 0.452) solid;
+}
+.cabecera{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.cabecera p{
+    font-size: 2.5em;
+    margin-left: 10px;
+}
+.logoI{
+    width: 50%;
+}
+.logoI img{
+    width: 100%;
+    object-fit: cover;
+}
+.imagenI{
+    width: 100px;
+}
+.imagenI img{
+    width: 100%;
+    object-fit: cover;
+}
+.cuadroI{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenI{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+.imagenI img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.cuadroI p{
+    font-size: 3em;
 }
