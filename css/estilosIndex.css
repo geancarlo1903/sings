@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif; 
+    text-decoration: none;
+}
+nav{
+    background-color: aqua;
+    width: 100%;
+}
+.containerN{
+    width: 80%;
+    padding: 10px 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoN{
+    width: 20%;
+}
+.logoN img, .user svg, .carrito svg{
+    width: 100%;
+    object-fit: cover;
+}
+.conteainerIconos{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.user, .carrito{
+width: 20%;
+height: 50%;
+}
