@@ -104,3 +104,33 @@ article{
 .cuadroI p{
     font-size: 3em;
 }
+/*--------footer--------*/
+footer{
+    background-color: cadetblue;
+    width: 100%;
+}
+.containerFooter{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.containerIF{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.logoF{
+    width: 20%;
+}
+.logoF img{
+    width: 100%;
+    object-fit: cover;
+}
+.InfoContacto, .InfoLugar{
+    width: 45%;
+    
+}
