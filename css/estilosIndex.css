@@ -20,7 +20,7 @@ nav{
 .logoN{
     width: 20%;
 }
-.logoN img, .user svg, .carrito svg, .anterior svg, .siguiente svg{
+.logoN img, .anterior svg, .siguiente svg{
     width: 100%;
     object-fit: cover;
 }
@@ -31,7 +31,11 @@ nav{
     align-items: center;
 }
 .user, .carrito{
-width: 15%;
+    font-size: 2.5em;
+    color: #000;
+}
+.user:active, .user:visited, .carrito:active, .carrito:visited{
+    color: #000;
 }
 /*--------eslaider header--------*/
 header{
