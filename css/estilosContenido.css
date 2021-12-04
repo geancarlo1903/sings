@@ -25,7 +25,6 @@
     text-align: center;
     background-color: rgba(255, 255, 255, 0.486);
     transition: 0.5s;
-
     position: absolute;
     bottom: 0;
     display: flex;
@@ -41,6 +40,7 @@
     width: 50%;
     height: 100%;
     font-size: 2em;
+    border-radius: 0px 10px 10px 0;
 }
 #contenido figure:hover figcaption .descriccion{
     display: inline;
