@@ -2,32 +2,32 @@ function ventanaP(N){
     switch(N){
         
         case 1:/*pagina stikers*/
-        var url = "stikers.html";
+        var url = "personalizados/stikers.html";
         window.open(url,"target");
         break;
 
         case 2:/*pagina labels*/
-        var url = "labels.html";
+        var url = "personalizados/labels.html";
         window.open(url,"target");
         break;
         
         case 3:/*pagina magnets*/
-        var url = "magnets.html";
+        var url = "personalizados/magnets.html";
         window.open(url,"target");
         break;
         
         case 4:/*pagina buttons*/
-        var url = "buttons.html";
+        var url = "personalizados/buttons.html";
         window.open(url,"target");
         break;
         
         case 5:/*pagina magnets*/
-        var url = "packaging.html";
+        var url = "personalizados/packaging.html";
         window.open(url,"target");
         break;
         
         case 6:/*pagina magnets*/
-        var url = "more.html";
+        var url = "personalizados/more.html";
         window.open(url,"target");
         break;
     }
@@ -36,32 +36,32 @@ function ventanaPU(N){
     switch(N){
         
         case 1:/*pagina banner*/
-        var url = "banner.html";
+        var url = "publicidad/banner.html";
         window.open(url,"target");
         break;
 
         case 2:/*pagina labels*/
-        var url = "rigid.html";
+        var url = "publicidad/rigid.html";
         window.open(url,"target");
         break;
         
         case 3:/*pagina magnets*/
-        var url = "adhesive.html";
+        var url = "publicidad/adhesive.html";
         window.open(url,"target");
         break;
         
         case 4:/*pagina buttons*/
-        var url = "handheld.html";
+        var url = "publicidad/handheld.html";
         window.open(url,"target");
         break;
         
         case 5:/*pagina magnets*/
-        var url = "magnet.html";
+        var url = "publicidad/magnet.html";
         window.open(url,"target");
         break;
         
         case 6:/*pagina magnets*/
-        var url = "music.html";
+        var url = "publicidad/music.html";
         window.open(url,"target");
         break;
     }
