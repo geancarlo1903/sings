@@ -1,0 +1,61 @@
+#mascaraVentana{
+    background-color: rgba(0, 0, 0, 0.699);
+    position: fixed;
+    top:0;
+    z-index: 910;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#formularios{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    /*display: none;*/
+}
+#formularios h2{
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+}
+#formularios .Usuario, .Contraseña{
+    margin: 10px 0;
+    width: 80%;
+}
+#Formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+#Formulario label{
+    display: inline-block;
+    width: 35%;
+    margin: 5px 0;
+    text-align: left;
+    font-size: 1.5em;
+    
+}
+input{
+    width: 64%;
+    height: 80%;
+    margin: 5px 0;
+}
+#botones{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Registrar,#Iniciar{
+    width: 30%;
+}
+#Registrar{
+    display: none;
+}
+#Iniciar{
+    display: block;
+}

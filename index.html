@@ -13,6 +13,7 @@
 
     <!------------estilos------------>
     <link rel="stylesheet" href="css/estilosIndex.css">
+    <link rel="stylesheet" href="css/estilosformularios.css">
     <script src="https://kit.fontawesome.com/12005ae10c.js" crossorigin="anonymous"></script>
 
     <!-------------icono------------->
@@ -25,7 +26,9 @@
         <div class="containerN">
         <div class="logoN"><img src="img/logo/signs logo-01.png" alt="logo de signs"></div>
         <div class="conteainerIconos">
-            <div class="user"><a href="#"><i class="fas fa-user"></i></a>
+            <div class="user"><a href="#" id="User"><i class="fas fa-user"></i></a>
+            </div>
+            <div class="formularioUsuario" id="usuario">
             </div>
             <div class="carrito"><a href="#"><i class="fas fa-shopping-cart"></i></a>
             </div>
@@ -104,5 +107,34 @@
         </div>
         </div>
     </footer>
+    
+    <!--ventanas emergentes-->
+    <div id="mascaraVentana">
+    <div id="formularios" class="cerrado">
+        <h2 class="titulo">Inicio de sesion</h2>
+        <form action="" method="post" id="Formulario">
+            <div class="Usuario">
+            <label for="usuario" id="LUsuario">Usuario:</label>
+            <input type="text" name="usuario" id="Usuario">
+            </div>
+            <div class="Contraseña">
+            <label for="contraseña" id="LContraseña">Contraseña:</label>
+            <input type="password" name="contraseña" id="Contraseña">
+            </div>
+            <div id="botones">
+            <input type="button" value="Registrar" id="Registrar">
+            <input type="button" value="Entrar" id="Entrar">
+            <input type="button" value="Cancelar" id="Cancelar">
+            <input type="hidden" name="carpeta" id="carpeta">
+            </div>
+        </form>
+    </div>
+    </div>
+    
+    <!--js-->
+    <script src="js/usuarios.js"></script>
+
+    <!--js alertas-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </body>
 </html>
