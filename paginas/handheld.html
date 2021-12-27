@@ -12,13 +12,15 @@
     <meta name="description" content="Pagina dedicada en la personalizacion de llaveros, camisa y demas cosas, donde puedes subir archivos y realizar el pedido de tu impresion.">
 
     <!------------estilos------------>
-    <link rel="stylesheet" href="../../css/estilosIndex.css">
-    <link rel="stylesheet" href="../../css/estilosmantenimiento.css">
-    <link rel="stylesheet" href="../../css/estilosContenido.css">
+    <link rel="stylesheet" href="../css/estilosIndex.css">
+    <!------------VentanaFormulario------------>
+    <link rel="stylesheet" href="../css/estilosformularios.css">
+    <link rel="stylesheet" href="../css/estilosmantenimiento.css">
+    <link rel="stylesheet" href="../css/estilosContenido.css">
     <script src="https://kit.fontawesome.com/12005ae10c.js" crossorigin="anonymous"></script>
     
     <!-------------icono------------->
-    <link rel="icon" href="../../img/iconos/1930026.png">
+    <link rel="icon" href="../img/iconos/1930026.png">
 
     <title>Handheld</title>
 </head>
@@ -26,10 +28,9 @@
      <!-----------navegador----------->
     <nav>
         <div class="containerN">
-        <div class="logoN"><a href="../publicidad.html"><img src="../../img/logo/signs logo-01.png" alt="logo de signs">Handheld</a></div>
+        <div class="logoN"><a href="publicidad.html"><img src="../img/logo/signs logo-01.png" alt="logo de signs">Handheld</a></div>
         <div class="conteainerIconos">
-        <div class="user"><a href="#"><i class="fas fa-user"></i></a>
-        </div>
+        <div class="user"><a href="#" id="User"><i class="fas fa-user"></i></a></div>
         <div class="carrito"><a href="#"><i class="fas fa-shopping-cart"></i></a>
         </div>
         </div>
@@ -49,14 +50,14 @@
     <!-------------Contenido------------->
     <section id="contenido">
         <figure>
-            <img src="../../img/logo/signs logo negro-01.png" alt="banners">
+            <img src="../img/logo/signs logo negro-01.png" alt="banners">
             <figcaption>
                 <h2 class="titulo">Paper</h2>
                 <p class="descriccion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, necessitatibus?</p>
             </figcaption>
         </figure>
         <figure>
-            <img src="../../img/logo/signs logo negro-01.png" alt="banners">
+            <img src="../img/logo/signs logo negro-01.png" alt="banners">
             <figcaption>
                 <h2 class="titulo">Hard cards</h2>
                 <p class="descriccion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, necessitatibus?</p>
@@ -66,7 +67,7 @@
     <footer>
         <div class="containerFooter">
         <div class="logoF">
-            <img src="../../img/logo/signs logo negro-01.png" alt="imagen de logos">
+            <img src="../img/logo/signs logo negro-01.png" alt="imagen de logos">
         </div>
         <div class="containerIF">
             <div class="InfoLugar">
@@ -78,5 +79,43 @@
         </div>
         </div>
     </footer>
+
+    <!--ventanas emergentes-->
+    <div id="mascaraVentana">
+        <div id="formularios" class="cerrado">
+            <h2 class="titulo">Inicio de sesion</h2>
+            <form action="" method="post" id="Formulario">
+                <div class="Usuario">
+                <label for="usuario" id="LUsuario">Usuario:</label>
+                <input type="text" name="usuario" id="Usuario">
+                </div>
+                <div class="Contraseña">
+                <label for="contraseña" id="LContraseña">Contraseña:</label>
+                <input type="password" name="contraseña" id="Contraseña">
+                </div>
+                <div id="botones">
+                <input type="button" value="Registrar" id="Registrar">
+                <input type="button" value="Entrar" id="Entrar">
+                <input type="button" value="Cancelar" id="Cancelar">
+                <input type="hidden" name="carpeta" id="carpeta">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div id="UserActivo">
+            
+    </div>
+        
+    <!--js-->
+    
+    <script src="../js/ejecuciones.js" type="module"></script>
+        
+    <!--js alertas-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <!--js alertas-->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </body>
 </html>
